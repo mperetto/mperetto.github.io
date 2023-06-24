@@ -1025,6 +1025,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- 
  */
+
+ .is-disabled {
+	color: currentColor;
+	cursor: not-allowed!important;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
 .grey-section {
 	background: #ebebeb;
 }
